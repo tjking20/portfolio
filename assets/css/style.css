@@ -1,0 +1,47 @@
+body{
+	background-image: url("../images/philly.jpg");/*resize your background image. It is currently on repeat. 
+													On the mac screen it does not reach the bottom*/
+	background-color: rgba(124,147,174,1);
+	color: white;
+}
+
+
+.projects{
+	width: 200px;
+}
+
+.sm-icons{
+	width: 50px;
+}
+#navbar{
+	position: fixed;
+}
+
+#about-me{
+	 background: linear-gradient(to bottom, rgba(124,147,174,0), rgba(124,147,174,.75)); 
+	 /*background-color: rgba(124,147,174,1);*/
+	 /*background-color:white;*/
+	 /*opacity: 0.75;*/
+}
+#works{
+	background-color: rgba(36,64,100,1);
+	opacity: 0.75;
+	/*width: 100%;*/
+	z-index: -2;
+}
+#opacity-wrapper{
+	opacity: 1.00;
+	/*width: 100%;*/
+	z-index: 2;
+}
+
+#contact{
+	background-color: rgba(63,60,74,1);
+}
+
+
+#tjk{
+
+	height: 100px;
+}
+

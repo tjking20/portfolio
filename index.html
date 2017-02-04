@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timothy J King</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+	
+ 
+</head>
+<body>
+	<div id="fullpage">
+
+		<!-- begin navbar -->
+		<!-- <header id="navbar">
+			<div class="row">
+				<div class="col-md-7">
+				</div>
+				<nav id="navBar" class="col-md-4">
+					<div>
+						<a href="https://github.com/tjking20" target="_blank">
+						     <img class= "sm-icons" src="assets/images/github.png" alt="picture of Github icon">     
+						</a> 
+					</div>
+					<div>
+						<a href= "https://www.linkedin.com/in/timothy-king-91662428" target="_blank">
+						     <img class= "sm-icons" src="assets/images/linkedin.png" alt="linkedin logo">     
+						</a>
+					</div>
+					<div>
+						<a href="http://stackexchange.com/users/9452051/tjking20" target="_blank">
+							<img class= "sm-icons" src="assets/images/stack-overflow.png" alt= "stack overflow logo">
+						</a>
+					</div>
+				</nav>
+			</div>
+		</header> -->
+
+		<!-- begin homepage -->
+		<div class="section" id="home" data-anchor="firstPage">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Timothy J King</h2> 
+				</div>
+			</div>
+		</div>
+		
+		<!-- begin about me section -->
+		<div class="section" id="about-me" data-anchor="secondPage">
+			<div class="row">
+				<div id="bio" class="col-md-12">
+					<h2>About Me</h2>
+					<img id="tjk" src="assets/images/tjk-image.jpg" alt="Picture of the fabulously handsome Timothy J. King."> 
+					<p>I am Tim, a former educator, and aspiring web developer and bear wrestler. I am inspired by both professions, but since web development is slightly less risky, I am comfortable sticking with that for the time being. I am a recent graduate of the Rutgers Coding Bootcamp, where I learned HTML, CSS, Java script, React, MySQL, and many more. In addition to coding languages, I learned all necessary aspects of computer science which have helped me transform into the world class developer, about whom you are currently reading. <br> <br>
+					In my spare time i enjoy completing projects for local non-profits as well as and volunteering for Special Olympics. As I continue to grow as a developer, I hope to assist non-profit organizations better reach their consumer-base, and build dynamic tools to improve efficiency. 
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- begin projects section -->
+		<div class="section" id="works" data-anchor="thirdPage">
+			<div id="opacity-wrapper">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Portfolio</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div id= "hangman" class= "projects">				
+							<a href="https://popshop-smartlist.herokuapp.com/" target="_blank"><img class= "image" src="assets/images/popshop-ss.png" alt= "screenshot of a login screen"></a>						
+							<p class= "img-banner">PopShop</p>					
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div id= "Rupee Collector" class="projects">						
+							<a href="https://rupee-collector.herokuapp.com/" target="_blank"><img class= "image" src="assets/images/rupee-collector.png" alt= "screen shot of rupee collector game"></a>						
+							<p class= "img-banner">RPG Game</p>					
+						</div>	
+					</div>
+					<div class="col-md-4">
+						<div id= "trivia" class= "projects" >					
+							<a href="" target="_blank"><img class= "image" src="assets/images/trivia.jpg" alt= "a picture of loaves of bread"></a					
+							<p class= "img-banner">Trivia Game</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div id= "rockpaper" class= "projects" >
+							<a href="" target="_blank"><img class= "image" src="assets/images/rockpaper.jpg" alt="picture of a bi plane"></a>
+							<p class= "img-banner">Rock Paper Scissors</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div id= "widget" class= "projects">
+							<a href=""><img class= "image" src="assets/images/widget.jpg" alt= "picture of a technical device"></a>	
+							<p class= "img-banner">Widget</p>-
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- begin contact form section -->
+		<div class="section" id="contact"  data-anchor="fourthPage">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Contact</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<form action= "action_page.php">
+						<label for="name">Name</label> <br>
+						<input id= "name" type="text" name="contact" placeholder="John Smith"> 
+						<br><br>
+						<label for="email">Email</label> <br>
+						<input id= "email" type="text" name="contact" placeholder= "example@jawn.com"> 
+						<br><br>
+						<label for="message">Message</label> <br>
+						<input id= "message" type="text" name="contact">
+						<br>			
+						<input id= "submit-button" type="Submit" value= "Submit" name="contact">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.fullPage.min.js"></script>
+<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				// anchors: ["firstPage", "secondPage", "thirdPage", "fourthPage"];
+			});
+		});
+</script>
+
+</body>
+</html>
