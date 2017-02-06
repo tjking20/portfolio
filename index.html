@@ -10,18 +10,33 @@
  
 </head>
 <body>
+	<nav id="menu">
+		<div class="row">
+			<div id="nav-buttons" class="col-md-6" align="center">
+				<h2 id="initials">TJK</h2>
+				<button class="btn btn-primary"><a href="#firstPage">Home</a></button>
+				<button class="btn btn-primary"><a href="#secondPage">About Me</a></button>
+				<button class="btn btn-primary"><a href="#thirdPage">Works</a></button>
+				<button class="btn btn-primary"><a href="#fourthPage">Contact</a></button>
+			</div>
+			<div id="nav-links" class="col-md-6" align="center">
+				<a href="https://github.com/tjking20" target="_blank">
+				     <img class= "sm-icons" src="assets/images/github.png" alt="picture of Github icon">     
+				</a> 
+				<a href= "https://www.linkedin.com/in/timothy-king-91662428" target="_blank">
+					<img class= "sm-icons" src="assets/images/linkedin.png" alt="linkedin logo">     
+				</a>
+				<a href="http://stackexchange.com/users/9452051/tjking20" target="_blank">
+					<img class= "sm-icons" src="assets/images/stack-overflow.png" alt= "stack overflow logo">
+				</a>
+			</div>
+		</div>
+	</nav>
 	<div id="fullpage">
 
 		<!-- begin navbar -->
 		<!-- <header id="navbar">
-			<div class="row">
-				<div class="col-md-7">
-					<a href="#firstPage">Home</a>
-					<a href="#secondPage">About Me</a>
-					<a href="#thirdPage">Works</a>
-					<a href="#fourthPage">Contact</a>
-				</div>
-			</div>
+	
 				<nav id="navBar" class="col-md-4">
 					<div>
 						<a href="https://github.com/tjking20" target="_blank">
@@ -46,14 +61,6 @@
 		<div class="section" id="home" data-anchor="firstPage">
 			<div class="row">
 				<div class="col-md-12">
-					<button><a href="#firstPage">Home</a></button>
-					<button><a href="#secondPage">About Me</a></button>
-					<button><a href="#thirdPage">Works</a></button>
-					<button><a href="#fourthPage">Contact</a></button>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
 					<h2>Timothy J King</h2> 
 				</div>
 			</div>
@@ -74,7 +81,7 @@
 
 		<!-- begin projects section -->
 		<div class="section" id="works" data-anchor="thirdPage">
-			<div id="background-opacity"></div>
+			<div class="push" class"col-md-12"></div>
 			<div id="content-opacity">	
 				<div class="row">
 					<div class="col-md-12">
@@ -84,13 +91,13 @@
 				<div class="row slide">
 					<div class="col-md-offset-2 col-md-4">
 						<div id= "hangman" class= "projects">				
-							<a href="https://popshop-smartlist.herokuapp.com/" target="_blank"><img class= "image" src="assets/images/popshop-ss.png" alt= "screenshot of a login screen"></a>						
+							<a href="https://github.com/tjking20/PopShop" target="_blank"><img class= "image" src="assets/images/popshop-ss.png" alt= "screenshot of a login screen"></a>						
 							<p class= "img-banner">PopShop</p>					
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div id= "Rupee Collector" class="projects">						
-							<a href="https://rupee-collector.herokuapp.com/" target="_blank"><img class= "image" src="assets/images/rupee-collector.png" alt= "screen shot of rupee collector game"></a>						
+							<a href="https://github.com/tjking20/week-4-game" target="_blank"><img class= "image" src="assets/images/rupee-collector.png" alt= "screen shot of rupee collector game"></a>						
 							<p class= "img-banner">RPG Game</p>					
 						</div>	
 					</div>
@@ -112,7 +119,7 @@
 				<div class="row slide">
 					<div class="col-md-4">
 						<div id= "trivia" class= "projects" >					
-							<a href="" target="_blank"><img class= "image" src="assets/images/trivia.jpg" alt= "a picture of loaves of bread"></a					
+							<a href="" target="_blank"><img class= "image" src="assets/images/trivia.jpg" alt= "a picture of loaves of bread"></a>					
 							<p class= "img-banner">Trivia Game</p>
 						</div>
 					</div>
@@ -123,6 +130,7 @@
 		<!-- begin contact form section -->
 		<div class="section" id="contact"  data-anchor="fourthPage">
 			<div class="row">
+				<div class="push" class"col-md-12"></div>
 				<div class="col-md-12">
 					<h2>Contact</h2>
 				</div>
@@ -143,6 +151,13 @@
 					</form>
 				</div>
 			</div>
+			<footer class="row">
+				<div class="push" class"col-md-12"></div>
+				<div id="footer" align="center">
+					<h6>&#169; Copyright 2016</h6>
+				</div>
+				
+			</footer>
 		</div>
 	</div>
 
@@ -153,7 +168,6 @@
 <script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				// anchors: ["firstPage", "secondPage", "thirdPage", "fourthPage"];
 			});
 		});
 </script>

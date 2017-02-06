@@ -5,39 +5,71 @@ body{
 	color: white;
 }
 
+.btn{
+	background-color: rgba(214, 214, 214, 1.00);
+	border: none;
+	border-bottom: 1px solid rgba(36, 64, 100, 1.00);
+}
+
+.sm-icons{
+	height: 35px;
+	margin-left: 10px;
+}
+
+/*#nav-links{
+	margin-right: 50px;
+}*/
 
 .projects{
 	width: 200px;
 }
-
-.sm-icons{
-	width: 50px;
+#initials{
+	float: left;
 }
-#navbar{
+
+#menu{
+	height: 50px;
+	width: 100%;
+	background-color: rgba(214, 214, 214, 1);
 	position: fixed;
+	border-bottom: 3px solid rgba(241, 149, 108, 1);
+	vertical-align: center;
+	z-index: 15;
 }
 
 #about-me{
-	 background: linear-gradient(to bottom, rgba(124,147,174,0), rgba(124,147,174,.75)); 
-	 /*background-color: rgba(124,147,174,1);*/
-	 /*background-color:white;*/
-	 /*opacity: 0.75;*/
+	z-index: 1;
+	background: linear-gradient(to bottom, rgba(124,147,174,0), rgba(124,147,174,.75)); 
 }
+
 #works{
+	z-index: 1;
 	background-color: rgba(36,64,100,0.75);
 	
 }
 
-
-
-
 #contact{
-	background-color: rgba(63,60,74,1);
+	z-index: 1;
+	background-color: rgba(63,60,74,0.75);
 }
 
 
 #tjk{
 
 	height: 100px;
+}
+
+.push{
+	/*position: absolute;*/
+	height: 160px;
+}
+.portfolio-push{
+	height: 300px;
+}
+
+#footer{
+	height: 100px;
+	background-color: rgba(35, 45, 63, 0.75);
+	border-top: 3px solid rgba(241, 149, 108, 1.00);
 }
 
