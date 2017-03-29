@@ -10,6 +10,10 @@ body {
     color: white;
 }
 
+h2{
+	font-size: 40px;
+	font-weight: 100;
+}
 
 .content {
     height: auto;
@@ -21,16 +25,22 @@ body {
     padding: 18% 0;
 }
 
-.push{
+/*.push{
 	padding: 25% 0%;
+}*/
+
+a{
+	text-decoration: none;
+	color: inherit;
 }
 
 
 /*=========== header  &&  home ========*/
 
 
+
 .sm-icons {
-    height: 35px;
+    height: 40px;
     margin-left: 10px;
 }
 
@@ -40,10 +50,11 @@ body {
 	font-weight: 100;
 	padding: 0px;
 	margin: 0px;
+
 }
 
 #menu {
-    height: 11%;
+    height: 80px;
     width: 100%;
     background-color: rgba(177, 177, 177, 1.00);
     position: fixed;
@@ -58,6 +69,10 @@ body {
 	padding: 0%;
 }
 
+#nav-buttons{
+	padding-top: 10px;
+}
+
 
 #home{
 	padding: 25% 0%;
@@ -69,8 +84,9 @@ body {
 	color: white;
 	font-size: 20px;
 	font-weight: 100;
-	padding: 4% 2%;
-	border-radius: .3em;
+	padding: 40px 12px 20px 12px;
+	border-bottom-left-radius: .3em;
+	border-bottom-right-radius: .3em;
 	/*height: inherit;*/
 
 }
