@@ -12,6 +12,11 @@ $(document).ready(function(){
 
 });
 
+$(window).scroll(function(){
+    $("#home").css("opacity", 1 - 
+    $(window).scrollTop() / 290);
+  });
+
 
 // $(document).ready(function(){		
 // 	var offset = 49;	

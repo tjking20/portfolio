@@ -1,4 +1,4 @@
-/*general*/
+/*=========== general ========*/
 
 body {
     background-image: url("../images/philly.jpg");
@@ -10,42 +10,52 @@ body {
     color: white;
 }
 
-.btn {
-    background-color: rgba(214, 214, 214, 1.00);
-    border: none;
-    border-bottom: 1px solid rgba(36, 64, 100, 1.00);
-}
 
 .content {
     height: auto;
     font-size: 18px;
+    font-weight: 100;
     color: white;
     width: 100%;
     overflow-x: hidden;
     padding: 18% 0;
-    /*box-shadow: 0px 15px 37px -1px rgba(0,0,0,0.75);*/
+}
+
+.push{
+	padding: 25% 0%;
 }
 
 
-/*header  &&  home*/
+/*=========== header  &&  home ========*/
+
+
 .sm-icons {
     height: 35px;
     margin-left: 10px;
 }
 
 #initials {
-    /*float: left;*/
 
+	font-size: 50px;
+	font-weight: 100;
+	padding: 0px;
+	margin: 0px;
 }
 
 #menu {
-    height: 80px;
+    height: 11%;
     width: 100%;
-    background-color: rgba(214, 214, 214, 1);
+    background-color: rgba(177, 177, 177, 1.00);
     position: fixed;
-    border-bottom: 3px solid rgba(241, 149, 108, 1);
+    border-bottom: 4px solid rgba(241, 149, 108, 1);
     vertical-align: center;
+   /* padding: 0px;
+	margin: 0px;*/
     z-index: 15;
+}
+#nav-row{
+	margin-top: 1%;
+	padding: 0%;
 }
 
 
@@ -53,15 +63,34 @@ body {
 	padding: 25% 0%;
 }
 
+.nav-link{
+	height: 10%;
+	position: relative;
+	color: white;
+	font-size: 20px;
+	font-weight: 100;
+	padding: 4% 2%;
+	border-radius: .3em;
+	/*height: inherit;*/
 
-/*bio*/
+}
+
+.nav-link:hover{
+	/*position: inherit;*/
+	background-color:  rgba(36, 64, 100, 1); 
+	color: white;
+	text-decoration: none;
+	transition:
+}
+
+
+/*=========== bio ========*/
 
 #about-me {
     z-index: 1;
-    background: rgba(124, 147, 174, .75);
+    /*background: rgba(124, 147, 174, .75);*/
+    background-color: rgba(63, 60, 74, 0.75);
     width: 100%;
-    /*padding: 16% 0;*/
-    /*height: 16%;*/
 }
 
 #tjk {
@@ -69,7 +98,7 @@ body {
 }
 
 
-/*projects*/
+/*=========== projects ========*/
 
 #projects-wrapper {
     /*align-self: center;*/
@@ -93,7 +122,7 @@ body {
 }
 
 
-/*contact form && footer*/
+/*===========contact  &&  footer========*/
 
 #contact {
     background-color: rgba(63, 60, 74, 0.75);
