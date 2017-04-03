@@ -127,7 +127,7 @@
                         </div>
                         <div class="col-lg-2 projects">
                             <a href="https://github.com/kcharner/chiro_to_publish" target="_blank">
-                                <img class="image" src="assets/images/evolve.png" alt="screen shot of evolve sports chiropractic logo">
+                                <img class="image" src="assets/images/evolve.png" alt="screen shot of evolve sports chiropractic">
                             </a>
                             <p class="img-banner">Evolve Chiropractic</p>
                         </div>
@@ -150,45 +150,51 @@
 
         <!-- Begin contact form section -->
 
-        <section class="content container" id="contact" data-anchor="fourthPage">
+        <section class="container" id="contact" data-anchor="fourthPage">
             <div class="row">
-                <div class="push" class "col-lg-12"></div>
-                <div class="col-lg-12">
+                <div class="col-lg-2 col-lg-offset-1" align="center">
                     <h2>Contact</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
+                 <div class="col-lg-3 col-lg-offset-2">
                     <form action="action_page.php">
                         <label for="name">Name</label>
                         <br>
-                        <input id="name" type="text" name="contact" placeholder="John Smith">
+                        <input id="name" class="contact-form" type="text" name="contact" placeholder="John Smith">
                         <br>
                         <br>
                         <label for="email">Email</label>
                         <br>
-                        <input id="email" type="text" name="contact" placeholder="example@jawn.com">
+                        <input id="email" class="contact-form" type="text" name="contact" placeholder="example@jawn.com">
                         <br>
                         <br>
                         <label for="message">Message</label>
                         <br>
-                        <input id="message" type="text" name="contact">
+                        <textarea id="message" class="contact-form" type="text" name="contact"></textarea>
                         <br>
-                        <input id="submit-button" type="Submit" value="Submit" name="contact">
+                        <input id="submit-button" class="btn" type="Submit" value="Submit" name="contact">
                     </form>
                 </div>
+                <div class="col-lg-3 col-lg-offset-3">
+                    <ul id="contact-info">
+                        <li id="tim-contact">Timothy King</li>
+                        <li>(215) 593-0319</li>
+                        <li><a href="tjking20@gmail.com">tjking20@gmail.com</a></li>
+                        <li>1616 S Bowling Green Dr<br>Cherry Hill, NJ 08003</li>
+                    </ul>
+                </div>
             </div>
+            <div class="push"></div>
             <footer class="row">
-                <div class="push" class="col-lg-12"></div>
+                <div class="col-lg-12"></div>
                 <div id="footer" align="center">
                     <h5>&#169; Copyright 2016</h5>
                 </div>
             </footer>
         </section>
     </div>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/jque`ry-3.1.1.min.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
-    <!-- <script type="text/javascript" src="assets/js/parralax.js"></script> -->
 </body>
-
 </html>

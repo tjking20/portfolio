@@ -128,7 +128,7 @@ a{
     overflow-y: hidden;
     margin: 0px;
     padding: 0px;
-    border: 1px solid #7C93AE;
+    border: .5px solid rgba(36, 64, 100, 0.5);
 }
 .projects:hover{
 	z-index: 50;
@@ -146,10 +146,16 @@ a{
 }
 .img-banner {
     position:relative;
-    bottom: 55px;
+    bottom: 45px;
     background-color: rgba(124, 147, 174, 1);
     color: white;
     padding: 10px 0px;
+    text-align: center;
+}
+
+.img-banner:hover{
+    background-color: rgba(124, 147, 174, .75);
+    
 }
 
 /*===========contact  &&  footer========*/
@@ -157,12 +163,29 @@ a{
 #contact {
     background-color: rgba(63, 60, 74, 0.75);
     width: 100%;
+    padding-top: 16%;
     /*height: 16%;*/
 }
 
+.contact-form{
+    background-color: rgba(35, 45, 63, 0.75);
+    width: 250px;
+    height: 50px;
+}
+#message{
+    width: 400px;
+    height: 150px;
+    font-size: 14px;
+}
+
 .push {
-    position: absolute;
-    height: 400px;
+    position: relative;
+    height: 100px;
+}
+
+#tim-contact{
+    font-size: 25px;
+    margin-bottom: 10px
 }
 
 #footer {
