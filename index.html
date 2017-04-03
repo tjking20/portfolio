@@ -16,23 +16,19 @@
 <!-- Begin Navbar -->
 
     <nav id="menu">
+        <!-- nav links -->
         <div class="row" id="nav-row">
             <div class="col-lg-2 col-lg-offset-1 col-sm-2 ">
-                <h1 id="initials"><a href="#home">TJK</a></h1>
+                <h1 id="initials"><a href="#home">TK</a></h1>
             </div>
             <div id="nav-buttons" class="col-lg-5 col-sm-5" align="right">
                 <a href="#about-me" class="nav-link">About me</a> |
                 <a href="#works" class="nav-link">Works</a> |
-                <a href="assets/documents/timothy-king-resume.html" class="nav-link">Resume</a> |
+                <a href="assets/documents/timothy-king-resume.html" class="nav-link" target="_blank">Resume</a> |
                 <a href="#contact" class="nav-link">Contact me</a>
             </div>
-           <!--  <div id="nav-buttons" class="col-lg-4" align="center">
-                <a href="#home" class="nav-link"><button class="btn nav-btn">Home</button></a>
-                <a href="#about-me" class="nav-link"><button class=" btn nav-btn">About me</button></a>
-                <a href="#works" class="nav-link"><button class=" btn nav-btn">Works</button></a>
-                <a href="#contact" class="nav-link"><button class=" btn nav-btn">Contact me</button></a>
-            </div> -->
-            <div id="nav-links" class="col-lg-3 col-sm-3" align="right">
+            <!-- social media icons -->
+            <div id="social-media" class="col-lg-3 col-sm-3" align="right">
                 <a href="https://github.com/tjking20" target="_blank">
                     <img class="sm-icons" src="assets/images/github.png" alt="picture of Github icon">
                 </a>
@@ -52,8 +48,8 @@
         <section class="container" id="home" data-anchor="firstPage">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <h2>Timothy J King</h2>
-                    <h4></h4>
+                    <h2>Timothy King</h2>
+                    <!-- <h4>full-stack devloper</h4> -->
                 </div>
             </div>
         </section>
@@ -61,24 +57,30 @@
 
 <!-- Begin about me section -->
         
-        <section class="content container" id="about-me" data-anchor="secondPage">
+        <section class="container content" id="about-me" data-anchor="secondPage">
             <div class="row">
-                <div id="bio" class="col-lg-12">
+                <div class="col-lg-2 col-lg-offset-1" align="center">
                     <h2>About Me</h2>
-                    <img id="tjk" src="assets/images/tjk-image.jpg" alt="Picture of the fabulously handsome Timothy J. King.">
-                    <p>I am Tim, a former educator, and aspiring web developer and bear wrestler. I am inspired by both professions, but since web development is slightly less risky, I am comfortable sticking with that for the time being. I am a recent graduate of the Rutgers Coding Bootcamp, where I learned HTML, CSS, Java script, React, MySQL, and many more. In addition to coding languages, I learned all necessary aspects of computer science which have helped me transform into the world class developer, about whom you are currently reading.
-                        <br>
-                        <br> In my spare time i enjoy completing projects for local non-profits as well as and volunteering for Special Olympics. As I continue to grow as a developer, I hope to assist non-profit organizations better reach their consumer-base, and build dynamic tools to improve efficiency.
-                    </p>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-2 col-lg-offset-1">
+                    <img id="tjk" src="assets/images/tjk-image.jpg" alt="Picture of the fabulously handsome Timothy J. King.">
+                </div>
+                <div class="col-lg-8">
+                    <p>I am Tim, a former educator, and aspiring web developer and bear wrestler. I am inspired by both professions, but since web development is slightly less risky, I am comfortable sticking with that for the time being. I am a recent graduate of the Rutgers Coding Bootcamp, where I learned HTML, CSS, Java script, React, MySQL, and many more. In addition to coding languages, I learned all necessary aspects of computer science which have helped me transform into the world class developer, about whom you are currently reading.
+                    <br><br> 
+                    In my spare time i enjoy completing projects for local non-profits as well as and volunteering for Special Olympics. As I continue to grow as a developer, I hope to assist non-profit organizations better reach their consumer-base, and build dynamic tools to improve efficiency.
+                    </p>
+                </div>
+            </div> 
         </section>
 
         <!-- Begin projects section -->
 
-        <section class="content container" id="works" data-anchor="thirdPage">
+        <section class="container content" id="works" data-anchor="thirdPage">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-2 col-lg-offset-1" align="center">
                     <h2>Works</h2>
                 </div>
             </div>
@@ -86,30 +88,62 @@
                 <div id="projects-wrapper" class="col-lg-7 col-lg-offset-3">
                     <div class="row">
                         <div class="col-lg-2 projects">
-                            <a href="https://github.com/tjking20/PopShop" target="_blank"><img class="image" src="assets/images/popshop-ss.png" alt="screenshot of a login screen"></a>
+                            <a href="https://github.com/rmcc3/AutomationNation" target="_blank">
+                                <img class="image" src="assets/images/automation-nation.png" alt="screenshot of automationNation logo">
+                            </a>
+                            <p class= "img-banner">Automation Nation</p>
                         </div>
                         <div class="col-lg-2 projects">
-                            <a href="https://github.com/tjking20/week-4-game" target="_blank"><img class="image" src="assets/images/rupee-collector.png" alt="screen shot of rupee collector game"></a>
+                            <a href="https://github.com/tjking20/PopShop" target="_blank">
+                                <img class="image" src="assets/images/popshop-ss.png" alt="screenshot of a login screen">
+                            </a>
+                            <p class= "img-banner">PopShop</p>
                         </div>
                         <div class="col-lg-2 projects">
-                            <a href=""><img class="image" src="assets/images/widget.jpg" alt="picture of a technical device"></a>
+                            <a href="https://github.com/tjking20/burger-time" target="_blank">
+                                <img class="image" src="assets/images/burger-time.png" alt="screenshot of burger time app">
+                            </a>
+                            <p class= "img-banner">Burger Time!</p>
                         </div>
                         <div class="col-lg-2 projects">
-                            <a href="" target="_blank"><img class="image" src="assets/images/trivia.jpg" alt="a picture of loaves of bread"></a>
+                            <a href="https://github.com/tjking20/week-4-game" target="_blank">
+                                <img class="image" src="assets/images/rupee-collector.png" alt="screen shot of rupee collector game">
+                            </a>
+                            <p class= "img-banner">Rupee Collector</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-2 projects"></div>
-                        <div class="col-lg-2 projects"></div>
-                        <div class="col-lg-2 projects"></div>
-                        <div class="col-lg-2 projects"></div>
+                        <div class="col-lg-2 projects">
+                            <a href="https://github.com/tjking20/bamazon" target="_blank">
+                                <img class="image" src="assets/images/bamazon.png" alt="screenshot of bamazon running in terminal">
+                            </a>
+                            <p class="img-banner">Bamazon</p>
+                        </div>
+                        <div class="col-lg-2 projects">
+                            <a href="https://github.com/tjking20/train-schedule" target="_blank">
+                                <img class="image" src="assets/images/train-schedule.png" alt="screenshot of firebase train train schedule">
+                            </a>
+                            <p class="img-banner">Train Schedule</p>
+                        </div>
+                        <div class="col-lg-2 projects">
+                            <a href="https://github.com/tjking20/psychic-game" target="_blank">
+                                <img class="image" src="assets/images/psychic-game.png" alt="screen shot of psychic game">
+                            </a>
+                            <p class="img-banner">Psychic Game</p>
+                        </div>
+                        <div class="col-lg-2 projects">
+                             <a href="https://github.com/tjking20/giphy-api" target="_blank">
+                                <img class="image" src="assets/images/giphy.png" alt="screen shot of giphy api app">
+                            </a>
+                            <p class="img-banner">Giphy API</p>
+                        </div>
                     </div>
-                    <div class="row">
+                   <!--  <div class="row">
                         <div class="col-lg-2 projects"></div>
                         <div class="col-lg-2 projects"></div>
                         <div class="col-lg-2 projects"></div>
                         <div class="col-lg-2 projects"></div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>

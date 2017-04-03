@@ -19,6 +19,10 @@ $(document).ready(function(){
 	    $(window).scrollTop() / 290);
 	});
 
+	// $(".projects").hover(function(){
+	// 	$(".trans").slideToggle();
+	// });
+
 
 });
 
