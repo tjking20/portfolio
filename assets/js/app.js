@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+	console.log("online")
 	
 	//function scrolls to appropriate sections of page
 	$(document).on("click", ".nav-link", function(){
