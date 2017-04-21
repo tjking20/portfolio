@@ -43,7 +43,11 @@ h2{
 
 a{
 	text-decoration: none;
-	color: inherit;
+	color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -56,15 +60,22 @@ a{
     margin-left: 10px;
 }
 
-#initials {
+#initials{
 
 	font-family: bebas-neue;
     font-size: 65px;
-	font-weight: 100;
 	padding: 0px;
 	margin: 0px;
-
+    /*color: inherit;
+    text-decoration: inherit;*/
 }
+
+/*#initials:hover{
+    color: white;
+    text-decoration: none;
+}*/
+
+
 
 #menu {
     height: 80px;
@@ -137,7 +148,11 @@ a{
 }
 
 #tjk {
-    height: 200px;
+    height: 190px;
+    border-radius: 2em;
+}
+#about-text{
+    margin-top: 10px;
 }
 
 
@@ -193,8 +208,7 @@ a{
 #contact {
     background-color: rgba(63, 60, 74, 0.75);
     width: 100%;
-    padding-top: 16%;
-    /*height: 16%;*/
+    padding-top: 8%;
 }
 
 .contact-form{
