@@ -1,5 +1,15 @@
 /*=========== general ========*/
 
+@font-face{
+    font-family: bebas-neue;
+    src: url("../fonts/bebas-neue.woff") format("woff");
+}
+
+@font-face{
+    font-family: nexa-light;
+    src: url("../fonts/nexa-light.woff") format("woff");
+}
+
 body {
     background-image: url("../images/philly.jpg");
     background-size: cover;
@@ -8,13 +18,17 @@ body {
     background-attachment: fixed;
     background-color: rgba(124, 147, 174, 1);
     color: white;
+    font-family: nexa-light;
 }
 
+
 h2{
-	font-size: 40px;
-	font-weight: 100;
+	font-family: 'bebas-neue';
+    font-size: 40px;
 	padding-bottom: 20px;
+    
 }
+
 
 .content {
     height: auto;
@@ -26,9 +40,6 @@ h2{
     padding: 8% 0;
 }
 
-/*.push{
-	padding: 25% 0%;
-}*/
 
 a{
 	text-decoration: none;
@@ -100,6 +111,20 @@ a{
 	transition:
 }
 
+
+#title-name{
+    font-family: 'bebas-neue';
+    font-size: 55px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    line-height: 40px;
+
+}
+#title-position{
+    font-family: 'bebas-neue';
+    font-size: 25px;
+
+}
 
 /*=========== bio ========*/
 
