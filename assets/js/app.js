@@ -18,7 +18,8 @@ $(document).ready(function(){
 	//fades name on home page
 	$(window).scroll(function(){
 	    $("#home").css("opacity", 1 - 
-	    $(window).scrollTop() / 290);
+	    // $(window).scrollTop() / 290);
+	    $(window).scrollTop() / 230);
 	});
 
 	// $(".projects").hover(function(){

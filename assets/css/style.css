@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url("../images/philly.jpg");
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -19,6 +19,7 @@ body {
     background-color: rgba(124, 147, 174, 1);
     color: white;
     font-family: nexa-light;
+    overflow-x: hidden;
 }
 
 
@@ -35,25 +36,31 @@ h2{
     font-size: 18px;
     font-weight: 100;
     color: white;
-    width: 100%;
     overflow-x: hidden;
     padding: 8% 0;
 }
 
+ .container{
+    width: 100%;
+}
 
+/*.row{
+    width: inherit;
+}
+*/
 a{
 	text-decoration: none;
 	color: white;
 }
-a:hover{
+a:hover, a:visited{
     text-decoration: none;
     color: white;
 }
 
 
-/*=========== header  &&  home ========*/
 
 
+/*=========== header ========*/
 
 .sm-icons {
     height: 40px;
@@ -66,26 +73,14 @@ a:hover{
     font-size: 65px;
 	padding: 0px;
 	margin: 0px;
-    /*color: inherit;
-    text-decoration: inherit;*/
 }
-
-/*#initials:hover{
-    color: white;
-    text-decoration: none;
-}*/
-
-
 
 #menu {
     height: 80px;
-    width: 100%;
     background-color: rgba(177, 177, 177, 1.00);
     position: fixed;
     border-bottom: 4px solid rgba(241, 149, 108, 1);
     vertical-align: center;
-   /* padding: 0px;
-	margin: 0px;*/
     z-index: 15;
 }
 #nav-row{
@@ -123,6 +118,13 @@ a:hover{
 	transition:
 }
 
+/*=========== home ========*/
+
+#title{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
 
 #title-name{
     font-family: 'bebas-neue';
@@ -130,21 +132,19 @@ a:hover{
     padding-bottom: 0px;
     margin-bottom: 0px;
     line-height: 40px;
-
 }
+
 #title-position{
     font-family: 'bebas-neue';
     font-size: 25px;
+    text-shadow: -2px 0 rgba(59, 172, 213, 1.00);
 
 }
 
 /*=========== bio ========*/
 
 #about-me {
-    z-index: 1;
-    /*background: rgba(124, 147, 174, .75);*/
     background-color: rgba(63, 60, 74, 0.75);
-    width: 100%;
 }
 
 #tjk {
@@ -184,8 +184,6 @@ a:hover{
 #works {
     z-index: 1;
     background-color: rgba(36, 64, 100, 0.75);
-    width: 100%;
-
 }
 .img-banner {
     position: relative;
@@ -207,7 +205,6 @@ a:hover{
 
 #contact {
     background-color: rgba(63, 60, 74, 0.75);
-    width: 100%;
     padding-top: 8%;
 }
 
