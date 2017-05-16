@@ -30,6 +30,9 @@ h2{
     
 }
 
+li{
+    display: inline;
+}
 
 .content {
     height: auto;
@@ -51,6 +54,7 @@ h2{
 a{
 	text-decoration: none;
 	color: white;
+    /*z-index: 5;*/
 }
 a:hover, a:visited{
     text-decoration: none;
@@ -81,7 +85,7 @@ a:hover, a:visited{
     position: fixed;
     border-bottom: 4px solid rgba(241, 149, 108, 1);
     vertical-align: center;
-    z-index: 15;
+    z-index: 50;
 }
 #nav-row{
 	margin-top: 1%;
@@ -118,12 +122,21 @@ a:hover, a:visited{
 	transition:
 }
 
+
+
+
 /*=========== home ========*/
 
 #title{
     position: absolute;
     top: 40%;
     left: 2%;
+    z-index: 1;
+}
+
+#name-container{
+    /*border-bottom: 1px solid white;*/
+    width: 300px;
 }
 
 #title-name{
@@ -137,10 +150,26 @@ a:hover, a:visited{
 #title-position{
     font-family: 'bebas-neue';
     font-size: 25px;
-    text-shadow: -2px 0 rgba(59, 172, 213, 1.00);
+    text-shadow: 
+    -2px -2px 0 rgba(59, 172, 213, 1.00),  
+    2px -2px 0 rgba(59, 172, 213, 1.00),
+    -2px 2px 0 rgba(59, 172, 213, 1.00),
+     2px 2px 0 rgba(59, 172, 213, 1.00);
 
 }
 
+.title-icon{
+    margin: 4px ;
+    z-index: 5;
+}
+
+#sm-icons{
+    margin-top: 20px;
+}
+
+.fa-2x:hover{
+    color: rgba(59, 172, 213, 1.00);
+}
 /*=========== bio ========*/
 
 #about-me {
@@ -174,7 +203,7 @@ a:hover, a:visited{
 
 }
 .projects:hover{
-	z-index: 50;
+	/*z-index: 50;*/
 	backgrou: rgba(124, 147, 174, .75);
 }
 .trans{
@@ -182,7 +211,7 @@ a:hover, a:visited{
     color: rgba(124, 147, 174, .75);
 }
 #works {
-    z-index: 1;
+    /*z-index: 1;*/
     background-color: rgba(36, 64, 100, 0.75);
 }
 .img-banner {
