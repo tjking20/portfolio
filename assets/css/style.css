@@ -42,6 +42,14 @@ li{
     overflow-x: hidden;
     padding: 8% 0;
 }
+.content-minor{
+    height: auto;
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+    overflow-x: hidden;
+    padding: 4% 0;
+}
 
  .container{
     width: 100%;
@@ -90,9 +98,11 @@ a:hover, a:visited{
 
 #menu {
     height: 80px;
-    background-color: rgba(177, 177, 177, 1.00);
+    /*background-color: rgba(177, 177, 177, 1.00);*/
+    background-color: black;
     position: fixed;
-    border-bottom: 4px solid rgba(241, 149, 108, 1);
+    /*border-bottom: 4px solid rgba(241, 149, 108, 1);*/
+    border-bottom: 5px solid rgba(51, 122, 155, 1.00);
     vertical-align: center;
     z-index: 50;
 }
@@ -197,6 +207,7 @@ a:hover, a:visited{
 /*=========== skills ========*/
 #skills{
     background-color: rgba(53, 136, 175, 1.00);
+    /*border-bottom: 30px solid rgba(51, 122, 155, 1.00);*/
 }
 
 .skills-icons{
