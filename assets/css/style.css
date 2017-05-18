@@ -61,6 +61,15 @@ a:hover, a:visited{
     color: white;
 }
 
+.minor-heading{
+    font-size: 35px;
+    font-family: nexa-light;
+    border-bottom: 1px solid white;
+    padding: .5%;
+    width: 90%;
+    text-align: right;
+} 
+
 
 
 
@@ -173,7 +182,9 @@ a:hover, a:visited{
 /*=========== bio ========*/
 
 #about-me {
-    background-color: rgba(63, 60, 74, 0.75);
+    /*background-color: rgba(63, 60, 74, 0.75);*/
+    background-color: rgba(59, 172, 213, 1.00);
+
 }
 
 #tjk {
@@ -183,7 +194,14 @@ a:hover, a:visited{
 #about-text{
     margin-top: 10px;
 }
+/*=========== skills ========*/
+#skills{
+    background-color: rgba(53, 136, 175, 1.00);
+}
 
+.skills-icons{
+    height: 100px;
+}
 
 /*=========== projects ========*/
 
@@ -212,7 +230,8 @@ a:hover, a:visited{
 }
 #works {
     /*z-index: 1;*/
-    background-color: rgba(36, 64, 100, 0.75);
+    /*background-color: rgba(36, 64, 100, 0.75);*/
+    background-color: rgba(37, 97, 124, 1.00);
 }
 .img-banner {
     position: relative;
