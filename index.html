@@ -99,7 +99,7 @@
     <section class="container content-minor" id="skills">
         <div class="row">
             <div class="col-lg-11 col-lg-offset-1">
-                <h2 id="skills-header">Skills</h2>
+                <h2 class="skills-header">Skills</h2>
             </div>
         </div>
         <div class="row">
@@ -151,8 +151,7 @@
                     </div>      
                 </div>
             </div>
-        </div>
-        
+        </div>  
     </section>
 
         <!-- BEGIN RESUME SECTION  -->
@@ -164,20 +163,22 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-2 col-lg-offset-4" align="center">
+            <div class="col-lg-2 col-lg-offset-4" align="center">      
                 <a href="assets/documents/timothy-king-resume.pdf" class="resume-buttons"download="timothy-king-resume.pdf">
-                    <i class="fa fa-download fa-4x" aria-hidden="true"></i><br>
-                    <strong>Download</strong>
+                    <i class="fa fa-download fa-4x" aria-hidden="true"></i>
                 </a>
-                <!-- Trigger the modal with a button -->
-
+                <a href="assets/documents/timothy-king-resume.pdf" target="_blank">
+                    <h4 class="resume-label">Download</h4>
+                </a>
             </div>
             <div class="col-lg-2" align="center">
-                <a href="assets/documents/timothy-king-resume.html" class="resume-buttons" target="_blank">
-                    <i class="fa fa-external-link fa-4x" aria-hidden="true"></i><br>
-                    <strong>View Resume</strong>
+                <a href="https://drive.google.com/file/d/0B6_ZKoNuFQpYU0lUMTBlZjZFd0U/view?usp=sharing" class="resume-buttons" target="_blank">
+                    <i class="fa fa-laptop fa-4x" aria-hidden="true"></i>
                 </a> 
-
+                <a href="https://drive.google.com/file/d/0B6_ZKoNuFQpYU0lUMTBlZjZFd0U/view?usp=sharing" target="_blank">
+                    <h4 class="resume-label">View Resume</h4>
+                </a>
+                
                 <!-- <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">View</button> -->
 
                 <!-- Modal -->
@@ -264,38 +265,61 @@
                 </div>
             </div>
             <div class="row">
-                 <div class="col-lg-3 col-lg-offset-2">
-                    <form action="action_page.php">
-                        <label for="name">Name</label>
-                        <br>
-                        <input id="name" class="contact-form" type="text" name="contact" placeholder="John Smith">
-                        <br>
-                        <br>
-                        <label for="email">Email</label>
-                        <br>
-                        <input id="email" class="contact-form" type="text" name="contact" placeholder="example@jawn.com">
-                        <br>
-                        <br>
-                        <label for="message">Message</label>
-                        <br>
-                        <textarea id="message" class="contact-form" type="text" name="contact"></textarea>
-                        <br>
-                        <input id="submit-button" class="btn" type="Submit" value="Submit" name="contact">
-                    </form>
-                </div>
                 <div class="col-lg-3 col-lg-offset-3">
-                    <ul id="contact-info">
-                        <li id="tim-contact">Timothy King</li>
-                        <li>(215) 593-0319</li>
-                        <li><a href="tjking20@gmail.com">tjking20@gmail.com</a></li>
-                        <li>1616 S Bowling Green Dr<br>Cherry Hill, NJ 08003</li>
-                    </ul>
-
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <i class="fa fa-mobile" aria-hidden="true"></i>
-
+                    <h3 class="subheader-contact">Timothy King</h3>
+                    <table>
+                        <tr>
+                            <td class="contact-icon" align="center">
+                                <a href="tel: 215-593-0319"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></a>
+                            </td>
+                            <td class="contact-text">
+                                <a href="tel: 215-593-0319">(215) 593-0319</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="contact-icon" align="center">
+                                <a href="tjking20@outlook.com"><i class="fa fa-laptop fa-2x" aria-hidden="true"></i></a>
+                            </td>
+                            <td class="contact-text">
+                                <a href="tjking20@outlook.com">tjking20@outlook.com</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="contact-icon" align="center">
+                                <a href="https://www.google.com/maps/place/Cherry+Hill,+NJ/@39.9229462,-75.0771413,12.69z/data=!4m5!3m4!1s0x89c6cb660be23e95:0x35db09ecd8adbdc0!8m2!3d39.926813!4d-75.0246312"></a><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                            </td>
+                            <td class="contact-text">
+                                <a href="https://www.google.com/maps/place/Cherry+Hill,+NJ/@39.9229462,-75.0771413,12.69z/data=!4m5!3m4!1s0x89c6cb660be23e95:0x35db09ecd8adbdc0!8m2!3d39.926813!4d-75.0246312">Cherry Hill, NJ</a>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
-            <div class="push"></div>
+                <div class="col-lg-3 ">
+                    <h3 class="subheader-contact">Connect</h3>
+                    <ul id="sm-icons">
+                        <li>
+                            <a href="https://www.linkedin.com/in/timothy-j-king/" class="title-icon" target="_blank">
+                                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/tjking20" class="title-icon" target="_blank">
+                                <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/tjking202" class="title-icon" target="_blank">
+                                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                         <li>
+                            <a href="http://stackoverflow.com/users/7028518/tim-king?tab=profile" class="title-icon" target="_blank">
+                                <i class="fa fa-stack-overflow fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </div>
     <footer class="container">

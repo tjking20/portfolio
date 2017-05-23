@@ -66,6 +66,10 @@ a:hover, a:visited{
     color: white;
 }
 
+/*table{
+    border-collapse: collapse;
+    width: 100%;
+}*/
 
 
 
@@ -91,7 +95,7 @@ a:hover, a:visited{
     background-color: black;
     position: fixed;
     /*border-bottom: 4px solid rgba(241, 149, 108, 1);*/
-    border-bottom: 5px solid rgba(51, 122, 155, 1.00);
+    border-bottom: 3px solid rgba(51, 122, 155, 1.00);
     vertical-align: center;
     z-index: 50;
 }
@@ -197,7 +201,7 @@ a:hover, a:visited{
 
 
 /*=========== skills ========*/
-#skills-header{
+.skills-header{
     font-size: 35px;
     font-family: nexa-light;
     font-weight: bold;
@@ -222,7 +226,7 @@ a:hover, a:visited{
 
 .skills-icons{
     height: 100px;
-    margin: 10% 0%;
+    margin: 15% 0%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -232,18 +236,52 @@ a:hover, a:visited{
 #resume-header{
    
     border-bottom: 1px solid white;
+    margin-bottom: 4%;
     padding: .5%;
     width: 90%;
     /*text-align: right;*/
 } 
-.resume-buttons{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+/*.resume-button-container{
+    border: 2px solid rgba(27, 71, 105, 1.00);
+    border-top-left-radius: .7em;
+    border-top-right-radius: .7em;
+    padding: 0%;
+
 }
+*/
+.resume-buttons:{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10% 0%;
+}
+
+
+
+.resume-buttons:link, .resume-buttons:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.resume-buttons:hover{
+    color: rgba(68, 159, 203, 1.00);
+}
+
+.resume-label{
+    display: block;
+    padding: 5% 0%;
+    margin: 5%;
+    background-color: rgba(27, 71, 105, 1.00);
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+}
+
 
 #resume{
     background-color: rgba(53, 136, 175, 1.00);
+    
+    /*RGBA(27, 71, 105, 1.00)*/
 }
 
 
@@ -280,7 +318,7 @@ a:hover, a:visited{
 .img-banner {
     position: relative;
     bottom: 45px;
-    background-color: rgba(124, 147, 174, 1);
+    background-color: rgba(53, 136, 174, 1);
     color: white;
     padding: 10px 0px;
     text-align: center;
@@ -289,7 +327,7 @@ a:hover, a:visited{
 }
 
 .img-banner:hover{
-    background-color: rgba(124, 147, 174, .75);
+    background-color: rgba(53, 136, 174, .75);
     
 }
 
@@ -297,7 +335,7 @@ a:hover, a:visited{
 
 #contact {
     background-color: rgba(63, 60, 74, 0.75);
-    padding-top: 8%;
+    padding: 11% 0%;
 }
 
 .contact-form{
@@ -305,6 +343,16 @@ a:hover, a:visited{
     width: 250px;
     height: 50px;
 }
+
+.contact-icon{
+    width: 20%;
+    text-align: center;
+    padding: 0;
+}
+.contact-text{
+    margin: 30px;
+}
+
 #message{
     width: 400px;
     height: 150px;
@@ -316,13 +364,22 @@ a:hover, a:visited{
     height: 100px;
 }
 
-#tim-contact{
-    font-size: 25px;
+.subheader-contact{
+    font-size: 30px;
     margin-bottom: 10px
 }
 
+
+td{
+    height: 45px;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
 #footer {
-    height: 120px;
-    background-color: rgba(35, 45, 63, 0.75);
-    border-top: 3px solid rgba(241, 149, 108, 1.00);
+    height: 60px;
+    background-color: rgba(27, 71, 105, 1.00);
+    border-top: 3px solid rgba(51, 122, 155, 1.00);
 }
