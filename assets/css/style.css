@@ -174,7 +174,10 @@ a:hover, a:visited{
     margin: 4px ;
     z-index: 5;
 }
+.title-icon:visited{
+    color: white;
 
+}
 #sm-icons{
     margin-top: 20px;
 }
@@ -348,6 +351,7 @@ a:hover, a:visited{
     text-align: center;
     padding: 0;
 }
+
 .contact-text{
     margin: 30px;
 }
