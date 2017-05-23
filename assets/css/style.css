@@ -128,7 +128,7 @@ a:hover, a:visited{
 
 .nav-link:hover{
 	/*position: inherit;*/
-	background-color:  rgba(36, 64, 100, 1); 
+	background-color: rgba(59, 172, 213, 1.00);
 	color: white;
 	text-decoration: none;
 	transition:
@@ -338,10 +338,9 @@ a:hover, a:visited{
     padding: 11% 0%;
 }
 
-.contact-form{
-    background-color: rgba(35, 45, 63, 0.75);
-    width: 250px;
-    height: 50px;
+#contact-form{
+    border-right: 1px solid white;
+    margin-right: 3%
 }
 
 .contact-icon{
