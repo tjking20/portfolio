@@ -22,8 +22,20 @@ $(document).ready(function(){
 	    $(window).scrollTop() / 230);
 	});
 
-	$(".projects").hover(function(){
-		$(".trans").slideToggle();
+	// $(".projects").hover(function(){
+	// 	$(".trans").slideToggle();
+	// });
+
+
+	$(window).resize(function(){
+		if($(window).width()<=1024){
+			$("#skyline-parallax").removeClass("parallax-window")
+			$("bridge-parallax").removeClass("parallax-window")
+
+		}
+		// } else if ($(window).width() > 1024){
+		// 	$("#skyline-parallax").addClass("parallax-window")
+		// }		
 	});
 
 
