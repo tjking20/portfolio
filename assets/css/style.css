@@ -11,15 +11,10 @@
 }
 
 body {
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
     background-color: rgba(124, 147, 174, 1);
     color: white;
     font-family: nexa-light;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 
@@ -31,17 +26,32 @@ h2{
 }
 
 li{
-    display: inline;
+    display: inline-flex;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0%;
+    flex-wrap: wrap;
 }
 
 .content {
-    height: auto;
-    font-size: 18px;
+    /*height: auto;*/
+    font-size: 20px;
     font-weight: 100;
     color: white;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     padding: 6% 0;
 }
+
 .content-minor{
     height: auto;
     font-size: 18px;
@@ -50,11 +60,6 @@ li{
     overflow-x: hidden;
     padding: 4% 0;
 }
-
- .container{
-    width: 100%;
-}
-
 
 a{
 	text-decoration: none;
@@ -66,72 +71,62 @@ a:hover, a:visited{
     color: white;
 }
 
-/*table{
-    border-collapse: collapse;
-    width: 100%;
-}*/
+.sm-icons{
+    margin-top: 20px;
+}
+
+.fa-2x:hover{
+    color: rgba(59, 172, 213, 1.00);
+}
+
 
 
 
 
 /*=========== header ========*/
 
-.sm-icons {
-    height: 40px;
-    margin-left: 10px;
+#menu {
+    background-color: black;
+    position: fixed;
+    border-bottom: 3px solid rgba(51, 122, 155, 1.00);
+    z-index: 50;
+}
+
+#menu-content-container{
+    padding: 1.5% 0%;
+    display: inline-flex;
+    justify-content: space-between;
+
 }
 
 #initials{
-
 	font-family: bebas-neue;
     font-size: 65px;
-	padding: 0px;
-	margin: 0px;
-}
-
-#menu {
-    height: 80px;
-    /*background-color: rgba(177, 177, 177, 1.00);*/
-    background-color: black;
-    position: fixed;
-    /*border-bottom: 4px solid rgba(241, 149, 108, 1);*/
-    border-bottom: 3px solid rgba(51, 122, 155, 1.00);
-    vertical-align: center;
-    z-index: 50;
-}
-#nav-row{
-	margin-top: 1%;
-	padding: 0%;
 }
 
 #nav-buttons{
-	padding-top: 10px;
+    align-self: center;
+    /*flex-wrap: nowrap;*/
+
 }
 
-
-#home{
-	padding: 25% 0%;
-}
-
-.nav-link{
-	height: 10%;
-	position: relative;
+.nav-links{
+	
 	color: white;
 	font-size: 20px;
 	font-weight: 100;
-	padding: 40px 12px 20px 12px;
+	padding: 50px 12px 20px 12px;
 	border-bottom-left-radius: .3em;
 	border-bottom-right-radius: .3em;
-	/*height: inherit;*/
 
 }
 
-.nav-link:hover{
-	/*position: inherit;*/
+.nav-links:hover{
+
 	background-color: rgba(59, 172, 213, 1.00);
 	color: white;
 	text-decoration: none;
-	transition:
+	/*transition:*/
 }
 
 
@@ -139,29 +134,41 @@ a:hover, a:visited{
 
 /*=========== home ========*/
 
-#title{
+#home{
+    padding: 28% 0%;
+}
+#home-content-container{
     position: absolute;
-    top: 40%;
-    left: 2%;
+    top: 35%;
+    /*left: 2%;*/
     z-index: 1;
 }
 
+/*#title{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    z-index: 1;
+}*/
+
+
+
 #name-container{
     /*border-bottom: 1px solid white;*/
-    width: 300px;
+    /*width: 300px;*/
 }
 
 #title-name{
     font-family: 'bebas-neue';
-    font-size: 55px;
-    padding-bottom: 0px;
+    font-size: 70px;
+    padding-bottom: 10px;
     margin-bottom: 0px;
-    line-height: 40px;
+    line-height: 50px;
 }
 
 #title-position{
     font-family: 'bebas-neue';
-    font-size: 25px;
+    font-size: 30px;
     text-shadow: 
     -2px -2px 0 rgba(59, 172, 213, 1.00),  
     2px -2px 0 rgba(59, 172, 213, 1.00),
@@ -178,28 +185,34 @@ a:hover, a:visited{
     color: white;
 
 }
-#sm-icons{
-    margin-top: 20px;
-}
 
-.fa-2x:hover{
-    color: rgba(59, 172, 213, 1.00);
-}
+
+
 /*=========== bio ========*/
 
 #about-me {
-    /*background-color: rgba(63, 60, 74, 0.75);*/
     background-color: rgba(59, 172, 213, 1.00);
-    /*box-shadow: 2px 10px 20px 5px #888888;*/
 
+}
+
+#about-me-content-container{
+    display: inline-flex;
+    /*justify-content: space-between;*/
 }
 
 #tjk {
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin-right: 60px;
     height: 190px;
     border-radius: 2em;
+    /*float: left;*/
 }
+
 #about-text{
+    /*display: inline-flex;*/
     margin-top: 10px;
+    line-height: 1.1;
 }
 
 
@@ -242,7 +255,7 @@ a:hover, a:visited{
     margin-bottom: 4%;
     padding: .5%;
     width: 90%;
-    /*text-align: right;*/
+
 } 
 
 /*.resume-button-container{
@@ -294,6 +307,10 @@ a:hover, a:visited{
     /*align-self: center;*/
     align-content: center;
 }
+/*
+.icon-container {
+    flex-direction: row;
+}*/
 
 .projects {
     width: 320px;
