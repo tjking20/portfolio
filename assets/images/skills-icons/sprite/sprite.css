@@ -1,0 +1,66 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-bootstrap {
+  width: 100px;
+  height: 100px;
+  background-position: 0 0;
+}
+.icon-css {
+  width: 100px;
+  height: 100px;
+  background-position: -116px 0;
+}
+.icon-github {
+  width: 100px;
+  height: 100px;
+  background-position: -232px 0;
+}
+.icon-heroku {
+  width: 100px;
+  height: 100px;
+  background-position: -348px 0;
+}
+.icon-html {
+  width: 100px;
+  height: 100px;
+  background-position: -464px 0;
+}
+.icon-jquery {
+  width: 100px;
+  height: 100px;
+  background-position: -580px 0;
+}
+.icon-js {
+  width: 100px;
+  height: 100px;
+  background-position: 0 -116px;
+}
+.icon-meteor {
+  width: 100px;
+  height: 100px;
+  background-position: -116px -116px;
+}
+.icon-mongodb {
+  width: 100px;
+  height: 100px;
+  background-position: -232px -116px;
+}
+.icon-mysql {
+  width: 100px;
+  height: 100px;
+  background-position: -348px -116px;
+}
+.icon-node {
+  width: 100px;
+  height: 100px;
+  background-position: -464px -116px;
+}
+.icon-react {
+  width: 100px;
+  height: 100px;
+  background-position: -580px -116px;
+}
+

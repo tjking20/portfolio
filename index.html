@@ -18,8 +18,8 @@
 
 <!-- Begin Navbar -->
 
-    <nav id="menu" class="container">
-        <div class="content-container" id="menu-content-container">
+    <nav id="menu">
+        <div id="menu-content-container" class="content-container" >
             <div id="initials-container">
                 <h1 id="initials"><a href="#home">TK</a></h1>
             </div>
@@ -35,9 +35,8 @@
 
 <!-- Begin homepage -->
     <div id="skyline-parallax" class="parallax-window" data-parallax="scroll" data-image-src="assets/images/philly.jpg">
-        <section class="container" id="home">
-           
-           <div class="content-container" id="home-content-container">
+        <section id="home" class="section-container">
+           <div class="content-container flex" id="home-content-container">
                 <div id="name-container">   
                     <h2 id="title-name">Timothy King</h2>
                     <h5 id="title-position">Web Developer</h5>
@@ -70,140 +69,122 @@
 
         <!--    BEGIN ABOUT ME SECTION -->
     
-    <section class="container content" id="about-me">
-        <div class="content-container" id="about-me-content-container">
+    <section id="about-me" class="section-container" >
+        <div class="content-container flex">
             <div class="section-header">
                 <h2>About Me</h2>
             </div>
-            <div id="about-me-content-container">
-                <div>
-                    <img id="tjk" src="assets/images/tjk-image.jpg" alt="Picture of the fabulously handsome Timothy J. King.">
-                </div>
-                <div>
-                    <div id="about-text">
-                        <p>I'm Tim, a full stack developer with experience creating sophisticated web applications using JavaScript and modern JavaScript frameworks. I currently tutor new developers around the country, and work as a freelancer developing client facing websites. I honed my skills at Rutgers University, where I completed the full stack development program. During my time at Rutgers, I had the pleasure to work with a group of the finest students and instructors on the planet. 
-                        <br><br> 
-                        In my spare time I enjoy attending JavaScript and modern technology meetups in Philadelphia, as well as completing projects for local non-profits. As I continue to grow as a developer, I hope to assist non-profit organizations better reach their consumer-base, and build dynamic tools to improve efficiency.
-                        </p>
-                    </div>
+            <div id="about-content-container">
+                <img id="tjk" src="assets/images/tjk-image.jpg" alt="Picture of the fabulously handsome Timothy J. King.">
+                <div id="about-text">
+                    <p>I'm Tim, a full stack developer with experience creating sophisticated web applications using JavaScript and modern JavaScript frameworks. I currently tutor new developers around the country, and work as a freelancer developing client facing websites. I honed my skills at Rutgers University, where I completed the full stack development program. During my time at Rutgers, I had the pleasure to work with a group of the finest students and instructors on the planet. 
+                    <br><br> 
+                    In my spare time I enjoy attending JavaScript and modern technology meetups in Philadelphia, as well as completing projects for local non-profits. As I continue to grow as a developer, I hope to assist non-profit organizations better reach their consumer-base, and build dynamic tools to improve efficiency.
+                    </p>
                 </div>
             </div> 
         </div>
     </section>
 
         <!--BEGIN SKILLS SECTION -->
-    <section class="container content-minor" id="skills">
+    <section id="skills" class="section-container" >
         <div class="content-container">
             <div class="">
                 <div class="">
                     <h2 id="skills-header">Skills</h2>
                 </div>
             </div>
-            <div class="content-container icon-container">
-                 <img src="assets/images/skills-icons/js.svg" alt="javascript icon" class="skills-icons">
-                <img src="assets/images/skills-icons/react.svg" alt="javascript icon" class="skills-icons">
-                <img src="assets/images/skills-icons/jquery.svg" alt="javascript icon" class="skills-icons">
-                <img src="assets/images/skills-icons/meteor.svg" alt="javascript icon" class="skills-icons">
-                <img src="assets/images/skills-icons/mysql.svg" alt="javascript icon" class="skills-icons">
-                <img src="assets/images/skills-icons/mongodb.svg" alt="javascript icon" class="skills-icons" align="center">
-                <img src="assets/images/skills-icons/sequelize.svg" alt="javascript icon" class="skills-icons">
-                <img src="assets/images/skills-icons/html.svg" alt="javascript icon" class="skills-icons">
-                <img src="assets/images/skills-icons/css.svg" alt="javascript icon" class="skills-icons">
-                <img src="assets/images/skills-icons/bootstrap.svg" alt="javascript icon" class="skills-icons">
-                <img src="assets/images/skills-icons/github.svg" alt="javascript icon" class="skills-icons">
-                <img src="assets/images/skills-icons/heroku.svg" alt="javascript icon" class="skills-icons">
-            </div> 
+            <div id="skills-content-container">
+            <!-- later switch icon containers to four sections of three and set skills content container id  to flex row wrap-->
+                <div class="icon-container">
+                    <!-- <img src="assets/images/skills-icons/sprite/sprite.svg"> -->
+                    <img src="assets/images/skills-icons/js.svg" alt="javascript icon" class="skills-icons">
+                    <img src="assets/images/skills-icons/react.svg" alt="javascript icon" class="skills-icons">
+                    <img src="assets/images/skills-icons/jquery.svg" alt="javascript icon" class="skills-icons">
+                    <img src="assets/images/skills-icons/meteor.svg" alt="javascript icon" class="skills-icons">
+                    <img src="assets/images/skills-icons/mysql.svg" alt="javascript icon" class="skills-icons">
+                    <img src="assets/images/skills-icons/mongodb.svg" alt="javascript icon" class="skills-icons" align="center">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/images/skills-icons/sequelize.svg" alt="javascript icon" class="skills-icons">
+                    <img src="assets/images/skills-icons/html.svg" alt="javascript icon" class="skills-icons">
+                    <img src="assets/images/skills-icons/css.svg" alt="javascript icon" class="skills-icons">
+                    <img src="assets/images/skills-icons/bootstrap.svg" alt="javascript icon" class="skills-icons">
+                    <img src="assets/images/skills-icons/github.svg" alt="javascript icon" class="skills-icons">
+                    <img src="assets/images/skills-icons/heroku.svg" alt="javascript icon" class="skills-icons">
+                </div> 
+            </div>
         </div> 
     </section>
 
         <!-- BEGIN RESUME SECTION  -->
 
-    <section id="resume" class="content container">
-        <div class="row">
-            <div class="col-lg-11 col-lg-offset-1">
+    <section id="resume" class="section-container">
+        <div class="content-container flex">
+            <div>
                 <h2 id="resume-header">Resume</h2>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-2 col-lg-offset-4" align="center">      
-                <a href="assets/documents/timothy-king-resume.pdf" class="resume-buttons"download="timothy-king-resume.pdf">
-                    <i class="fa fa-download fa-4x" aria-hidden="true"></i>
-                </a>
-                <h4 class="resume-label">Download</h4>
+            <div id="resume-buttons-container">
+                <div id="download-button">      
+                    <a href="assets/documents/timothy-king-resume.pdf" class="resume-buttons" download="timothy-king-resume.pdf">
+                        <i class="fa fa-download fa-4x" aria-hidden="true"></i>
+                    </a>
+                    <h4 class="resume-label">Download</h4>
+                </div>
+                <div class="vertical-line"></div>
+                <div id="view-button">
+                    <a href="https://drive.google.com/open?id=0B6_ZKoNuFQpYWGVxcEFGOC00ZkU" class="resume-buttons" target="_blank">
+                        <i class="fa fa-eye fa-4x" aria-hidden="true"></i>
+                    </a>
+                    <h4 class="resume-label">View Resume</h4>
+                </div>
             </div>
-            <div class="col-lg-2" align="center">
-                <a href="https://drive.google.com/open?id=0B6_ZKoNuFQpYWGVxcEFGOC00ZkU" class="resume-buttons" target="_blank">
-                    <i class="fa fa-laptop fa-4x" aria-hidden="true"></i>
-                </a> 
-                <h4 class="resume-label">View Resume</h4>
-                
-                <!-- <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">View</button> -->
-
-                <!-- Modal -->
-                <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                            </div> `-->
-                            <!-- <div class="modal-body">
-                                <iframe srcdoc="assets/documents/timothy-king-resume.html" width="100% height="100%" frameborder="0" allowtransparency="true"></iframe>  
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
+            
         </div>
     </section>
 
         <!-- Begin projects section -->
     <div class="parallax-window" data-parallax="scroll" data-image-src="assets/images/benfrank2.jpg">
-        <section class="container content" id="works" data-anchor="thirdPage">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1">
+        <section id="works" class="section-container">
+            <div class="flex content-container">
+                <div class="section-header">
                     <h2>Works</h2>
                 </div>
-            </div>
-            <div class="row">
-                <div id="projects-wrapper" class="col-lg-10 col-lg-offset-1">
-                    <div class="row">
-                        <div class="col-lg-3 projects">
+                <div id="projects-content-container">
+                    <div class="project-row">
+                        <div class="projects">
                             <a href="https://github.com/rmcc3/AutomationNation" target="_blank">
                                 <img class="image" src="assets/images/project-images/autonat.png" alt="screenshot of automationNation logo">
                             </a>
                             <p class= "img-banner">Automation Nation</p>
                         </div>
-                        <div class="col-lg-3 projects">
+                        <div class="projects">
                             <a href="https://github.com/tjking20/PopShop" target="_blank">
                                 <img class="image" src="assets/images/project-images/popshop.png" alt="screenshot of a login screen">
                             </a>
                             <p class= "img-banner">PopShop</p>
                         </div>
-                        <div class="col-lg-3 projects">
+                        <div class="projects">
                             <a href="https://github.com/tjking20/burger-time" target="_blank">
                                 <img class="image" src="assets/images/project-images/burger-time.png" alt="screenshot of burger time app">
                             </a>
                             <p class= "img-banner">Burger Time!</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-3 projects">
+                    <div class="project-row">
+                        <div class="projects">
                             <a href="https://github.com/tjking20/week-4-game" target="_blank">
                                 <img class="image" src="assets/images/project-images/rupee-collector.png" alt="screen shot of rupee collector game">
                             </a>
                             <p class= "img-banner">Rupee Collector</p>
                         </div>
-                        <div class="col-lg-3 projects">
+                        <div class="projects">
                             <a href="https://github.com/tjking20/bamazon" target="_blank">
                                 <img class="image" src="assets/images/project-images/bamazon.png" alt="screenshot of bamazon running in terminal">
                             </a>
                             <p class="img-banner">Bamazon</p>
                         </div>
-                        <div class="col-lg-3 projects">
+                        <div class="projects">
                             <a href="https://github.com/kcharner/chiro_to_publish" target="_blank">
                                 <img class="image" src="assets/images/project-images/evolve.png" alt="screen shot of evolve sports chiropractic">
                             </a>
@@ -216,71 +197,73 @@
 
         <!-- BEGIN CONTACT FORM SECTION -->
 
-        <section class="container" id="contact" data-anchor="fourthPage">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1">
+        <section  id="contact" class="section-container">
+            <div class="flex content-container">
+                <div class="section-header">
                     <h2>Contact</h2>
                 </div>
-            </div>
-            <div class="row">
-                <div id="contact-form" class="col-lg-3 col-lg-offset-3">
-                    <h3 class="subheader-contact">Timothy King</h3>
-                    <table>
-                        <tr>
-                            <td class="contact-icon">
-                                <a href="tel:215-593-0319" class="title-icon"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></a>
-                            </td>
-                            <td class="contact-text">
-                                <a href="tel:215-593-0319">(215) 593-0319</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="contact-icon">
-                                <a href="mailto:tjking20@outlook.com" class="title-icon"><i class="fa fa-laptop fa-2x" aria-hidden="true"></i></a>
-                            </td>
-                            <td class="contact-text">
-                                <a href="mailto:tjking20@outlook.com">tjking20@outlook.com</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="contact-icon">
-                                <a href="https://www.google.com/maps/place/Cherry+Hill,+NJ/@39.9229462,-75.0771413,12.69z/data=!4m5!3m4!1s0x89c6cb660be23e95:0x35db09ecd8adbdc0!8m2!3d39.926813!4d-75.0246312" class="title-icon"></a><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
-                            </td>
-                            <td class="contact-text">
-                                <a href="https://www.google.com/maps/place/Cherry+Hill,+NJ/@39.9229462,-75.0771413,12.69z/data=!4m5!3m4!1s0x89c6cb660be23e95:0x35db09ecd8adbdc0!8m2!3d39.926813!4d-75.0246312">Cherry Hill, NJ</a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-lg-3 ">
-                    <h3 class="subheader-contact">Connect</h3>
-                    <ul class="sm-icons">
-                        <li>
-                            <a href="https://www.linkedin.com/in/timothy-j-king/" class="title-icon" target="_blank">
-                                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/tjking20" class="title-icon" target="_blank">
-                                <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/tjking202" class="title-icon" target="_blank">
-                                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                         <li>
-                            <a href="http://stackoverflow.com/users/7028518/tim-king?tab=profile" class="title-icon" target="_blank">
-                                <i class="fa fa-stack-overflow fa-2x" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                    </ul>
+                <div id="contact-form-content">
+                    <div class="contact-form-element">
+                        <h3 class="subheader-contact">Timothy King</h3>
+                        <table>
+                            <tr>
+                                <td class="contact-icon">
+                                    <a href="tel:215-593-0319" class="title-icon"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></a>
+                                </td>
+                                <td class="contact-text">
+                                    <a href="tel:215-593-0319">(215) 593-0319</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="contact-icon">
+                                    <a href="mailto:tjking20@outlook.com" class="title-icon"><i class="fa fa-laptop fa-2x" aria-hidden="true"></i></a>
+                                </td>
+                                <td class="contact-text">
+                                    <a href="mailto:tjking20@outlook.com">tjking20@outlook.com</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="contact-icon">
+                                    <a href="https://www.google.com/maps/place/Cherry+Hill,+NJ/@39.9229462,-75.0771413,12.69z/data=!4m5!3m4!1s0x89c6cb660be23e95:0x35db09ecd8adbdc0!8m2!3d39.926813!4d-75.0246312" class="title-icon"></a><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                                </td>
+                                <td class="contact-text">
+                                    <a href="https://www.google.com/maps/place/Cherry+Hill,+NJ/@39.9229462,-75.0771413,12.69z/data=!4m5!3m4!1s0x89c6cb660be23e95:0x35db09ecd8adbdc0!8m2!3d39.926813!4d-75.0246312">Cherry Hill, NJ</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="vertical-line">
+                    </div>
+                    <div class="contact-form-element">
+                        <h3 class="subheader-contact">Connect</h3>
+                        <ul class="sm-icons">
+                            <li>
+                                <a href="https://www.linkedin.com/in/timothy-j-king/" class="title-icon" target="_blank">
+                                    <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/tjking20" class="title-icon" target="_blank">
+                                    <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/tjking202" class="title-icon" target="_blank">
+                                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                             <li>
+                                <a href="http://stackoverflow.com/users/7028518/tim-king?tab=profile" class="title-icon" target="_blank">
+                                    <i class="fa fa-stack-overflow fa-2x" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
     </div>
-    <footer class="container">
+    <footer>
         <div class="row">
             <div class="col-lg-12"></div>
             <div id="footer" align="center">
