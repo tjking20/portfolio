@@ -1,0 +1,4 @@
+User-agent:*
+Dissallow:
+
+siteMap: http://timothyking.net/sitemap.xml
