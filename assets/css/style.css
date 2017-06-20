@@ -24,8 +24,9 @@ h2{
     
 }
 
-li{
-    display: inline-flex;
+ul{
+    display: flex;
+    flex-flow: row nowrap;
 }
 
 .section-container{
@@ -45,8 +46,7 @@ li{
 
 .flex{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-flow: column nowrap;
 
 }
 
@@ -101,8 +101,7 @@ a:hover, a:visited{
 #menu-content-container{
     padding: 1.5% 0%;
     display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
 
 }
@@ -123,6 +122,7 @@ a:hover, a:visited{
 	color: white;
 	font-size: 20px;
 	font-weight: 100;
+    white-space: nowrap;
 	padding: 50px 12px 20px 12px;
 	border-bottom-left-radius: .3em;
 	border-bottom-right-radius: .3em;
@@ -151,13 +151,6 @@ a:hover, a:visited{
     /*left: 2%;*/
     z-index: 1;
 }
-
-/*#title{
-    position: absolute;
-    top: 2%;
-    left: 2%;
-    z-index: 1;
-}*/
 
 
 
@@ -204,10 +197,11 @@ a:hover, a:visited{
 }
 
 #about-content-container{
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
+
 }
 
 
@@ -215,13 +209,13 @@ a:hover, a:visited{
     margin-right: 60px;
     height: 190px;
     border-radius: 2em;
-    flex:1;
+
 }
 
 #about-text{
     margin-top: 10px;
     line-height: 1.1;
-    flex: 5;
+
 }
 
 
@@ -319,11 +313,12 @@ a:hover, a:visited{
 
 
 
-.project-row{
+/*.project-row{*/
+#projects-content-container{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin: 3% 0%;
+
 }
 
 .projects {
@@ -333,6 +328,7 @@ a:hover, a:visited{
     overflow-y: hidden;
     /*margin: 2%;*/
     padding: 0px;
+    margin: 2% 0%;
     border: .5px solid rgba(36, 64, 100, 0.5);
     /*box-shadow: 0px 0px 25px 4px rgba(61,61,61,.5);*/
 
